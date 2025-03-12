@@ -9,6 +9,14 @@ public class Main {
 
         // List 선언 및 초기화
         List<MenuItem> menuItems = new ArrayList<>();
+        // 상속 계층도를 보면 알 수 있듯이
+        // List로 선언하고 ArrayList로 초기화하는 것은 다형성(polymorphism) 덕분에 가능하다.
+        //다형성을 통한 이점
+        //유연성: List로 선언하면 ArrayList 뿐만 아니라 다른 List 구현체도 사용할 수 있어 코드가 더 유연해집니다.
+        //캡슐화: List 인터페이스를 사용하면, 내부 구현이 바뀌더라도 외부에서 사용하는 코드에 영향을 미치지 않습니다.
+        // 예를 들어, ArrayList에서 LinkedList로 바꾸더라도 List 타입으로 선언했기 때문에 코드를 수정할 필요가 없습니다.
+        //유지보수성: 다양한 List 구현체 중에서 상황에 맞는 구현체를 선택하여 사용할 수 있기 때문에,
+        // 나중에 성능이나 기능을 고려하여 구현체를 교체할 수 있습니다.
 
         // add 함수를 통해 new MenuItem(이름, 가격, 설명) List에 삽입
         System.out.println("[ SHAKESHACK MENU ]");
