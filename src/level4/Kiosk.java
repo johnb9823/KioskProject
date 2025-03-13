@@ -42,7 +42,6 @@ public class Kiosk {
                 System.out.println("잘못된 선택입니다.");
             }
         }
-
     }
 
     // 선택된 카테고리에서 메뉴 항목 처리

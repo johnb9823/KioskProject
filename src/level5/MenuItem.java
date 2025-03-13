@@ -39,5 +39,4 @@ public class MenuItem {
     public void printSelectedMenu() {
         System.out.println(name + " | W " + price + " | " + description);
     }
-
 }

@@ -37,7 +37,4 @@ public class Menu {
         System.out.println("0. 뒤로가기");
     }
 
-
-
-
 }

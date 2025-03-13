@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         // List 선언 및 초기화
         List<MenuItem> menuItems = new ArrayList<>();
         // 상속 계층도를 보면 알 수 있듯이
@@ -24,7 +23,7 @@ public class Main {
         menuItems.add(new MenuItem("2. SmokeShack", 8.9, "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"));
         menuItems.add(new MenuItem("3. Cheeseburger", 6.9, "포테이토 번과 비프패티, 치즈가 토핑된 치즈버거"));
         menuItems.add(new MenuItem("4. Hamburger", 5.4, "비프패티를 기반으로 야채가 들어간 기본버거"));
-        //menuItems.add("chessberger") 실수하는 부분
+        //menuItems.add("Cheessberger") 실수했던 부분
 //        이게 가능한 이유는 자바의 객체 생성과 메서드 호출 방식에 관련된 특징 덕분입니다.
 //        객체 생성: 자바에서는 객체를 생성할 때 new 키워드를 사용합니다.
 //        예를 들어, new MyClass("example")는 MyClass라는 클래스의 새로운 객체를 생성하면서

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
         // List 선언 및 초기화
         ArrayList<MenuItem> menuItems = new ArrayList<>();
 

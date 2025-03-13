@@ -11,7 +11,7 @@ public class MenuItem {
         this.description = description;
     }
 
-    // getter
+    // getter 생성
     public String getName() {
         return name;
     }
